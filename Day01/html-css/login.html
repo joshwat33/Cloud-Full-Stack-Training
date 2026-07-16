@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script>
+    function login(){
+        let name = document.getElementById('name').value;
+        let age = document.getElementById('age').value;
+        let email = document.getElementById('email').value;
+        let uname = document.getElementById('uname').value;
+        let pass = document.getElementById('pass').value;
+        console.log(name, age,email,uname,pass);
+    }
+    </script>
+</head>
+<body>
+    <div style=";">
+    <h1>Login</h1>
+    <input class="inputfields" type="text" placeholder="Name" /><br/>
+    <input class="inputfields type="number" placeholder="Age" /><br/>
+    <input class="inputfields type="email" placeholder="Email" /><br/>
+    <input class="inputfields type="text" placeholder="Username" /><br/>
+    <input class="inputfields type="password" placeholder="Password" /><br/>
+    <button id="loginbtn" onclick="login()">Login</button>
+    </div>
+</body>
+</html>
