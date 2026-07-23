@@ -5,16 +5,16 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 //console.log(os.arch(), os.freemem(), os .homedir(), os.hostname(), os.uptime());
-async function getHTMLFileSync(filename){
-    return await fs.readFile('../Day01/html-css/'.concat(filename),(err,data) => {
-        if(err){
-            console.log(err);
-        } else{
-            console.log(data.toString());
-            return data.toString();
-        }
-    });
-}
+// async function getHTMLFileSync(filename){
+//     return await fs.readFile('../Day01/html-css/'.concat(filename),(err,data) => {
+//         if(err){
+//             console.log(err);
+//         } else{
+//             console.log(data.toString());
+//             return data.toString();
+//         }
+//     });
+// }
 
 // fs.writeFile('name.txt',"Hello World",(err,data)=>{
 //     if(err){
